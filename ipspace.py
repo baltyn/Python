@@ -19,9 +19,9 @@ reserved = {'0.0.0.0': '0.255.255.255',
 '192.0.2.0': '192.0.2.255', 
 '192.88.99.0': '192.88.99.255'}
 
-startip = '152.0.0.0'
+startip = '0.0.0.0'
 startipdec = int(netaddr.IPAddress(startip))
-endip = '154.255.255.255'
+endip = '10.255.255.255'
 endipdec = int(netaddr.IPAddress(endip))
 
 ipint = startipdec
